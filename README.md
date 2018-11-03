@@ -8,7 +8,7 @@ Veja o projeto rodando no <a href="https://calctestsoftplayer.azurewebsites.net/
 
 ## Tecnologias implementadas:
 
-- ASP.NET Core 2.0 (com .NET Core)
+- ASP.NET Core 2.1 (com .NET Core)
 - AutoMapper
 - Swagger UI
 - Docker
