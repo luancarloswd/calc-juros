@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Domain", "src\CalcTest.Domain\CalcTest.Domain.csproj", "{724ADFB2-F5E9-45DE-A4C0-F844060DE5E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.Domain", "src\CalcTest.Domain\CalcTest.Domain.csproj", "{724ADFB2-F5E9-45DE-A4C0-F844060DE5E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Tests", "src\CalcTest.Tests\CalcTest.Tests.csproj", "{FC3A0354-E500-490C-A011-6E1FE4B3843C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.Tests", "src\CalcTest.Tests\CalcTest.Tests.csproj", "{FC3A0354-E500-490C-A011-6E1FE4B3843C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Crosscutting", "src\CalcTest.Crosscutting\CalcTest.Crosscutting.csproj", "{A5F5CA6F-4577-4413-B75F-AE6654A4B5B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.Crosscutting", "src\CalcTest.Crosscutting\CalcTest.Crosscutting.csproj", "{A5F5CA6F-4577-4413-B75F-AE6654A4B5B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Service", "src\CalcTest.Service\CalcTest.Service.csproj", "{DF3B56D7-D414-4886-84BD-8D6DF6585635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.Service", "src\CalcTest.Service\CalcTest.Service.csproj", "{DF3B56D7-D414-4886-84BD-8D6DF6585635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.IoC", "src\CalcTest.IoC\CalcTest.IoC.csproj", "{BB6643CA-1AB5-4DF3-8B2A-771358DB9E7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.IoC", "src\CalcTest.IoC\CalcTest.IoC.csproj", "{BB6643CA-1AB5-4DF3-8B2A-771358DB9E7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.API", "src\CalcTest.API\CalcTest.API.csproj", "{A8442BDA-D48A-428A-A4B4-9175D80B39C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTest.API", "src\CalcTest.API\CalcTest.API.csproj", "{A8442BDA-D48A-428A-A4B4-9175D80B39C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  calctest.api:
+    image: CalcTest
+    build:
+      context: .
+      dockerfile: src/CalcTest.API/Dockerfile
