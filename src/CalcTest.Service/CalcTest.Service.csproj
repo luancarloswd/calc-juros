@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CalcTest.Crosscutting\CalcTest.Crosscutting.csproj" />
     <ProjectReference Include="..\CalcTest.Domain\CalcTest.Domain.csproj" />
   </ItemGroup>
 
