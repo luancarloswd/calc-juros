@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Domain", "src\Calc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Tests", "src\CalcTest.Tests\CalcTest.Tests.csproj", "{FC3A0354-E500-490C-A011-6E1FE4B3843C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTest.Crosscutting", "src\CalcTest.Crosscutting\CalcTest.Crosscutting.csproj", "{A5F5CA6F-4577-4413-B75F-AE6654A4B5B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC3A0354-E500-490C-A011-6E1FE4B3843C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3A0354-E500-490C-A011-6E1FE4B3843C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3A0354-E500-490C-A011-6E1FE4B3843C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F5CA6F-4577-4413-B75F-AE6654A4B5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F5CA6F-4577-4413-B75F-AE6654A4B5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F5CA6F-4577-4413-B75F-AE6654A4B5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F5CA6F-4577-4413-B75F-AE6654A4B5B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
