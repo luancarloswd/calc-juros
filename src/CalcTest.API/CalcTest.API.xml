@@ -11,8 +11,8 @@
             <param name="ValorInicial">Valor inicial para cálculo dos juros compostos</param>
             <param name="Meses">Intervalo de meses para cálculo dos juros compostos</param>
             <returns>Objeto com o valor final com os juros aplicados</returns>
-            <response code="200">Se o valor inicial e o tempo fornecidos forem válidos.</response>
-            <response code="400">Se o valor inicial ou tempo fornecidos forem inválidos.</response>
+            <response code="200">Se o valor inicial e o meses fornecidos forem válidos.</response>
+            <response code="400">Se o valor inicial ou meses fornecidos forem inválidos.</response>
         </member>
         <member name="M:CalcTest.API.Controllers.ShowMeTheCode.Get">
             <summary>
