@@ -20,6 +20,15 @@ namespace CalcTest.API.Controllers
             _domainNotificationManager = domainNotificationManager;
         }
 
+
+        /// <summary>
+        /// Calcula o valor dos juros compostos aplicando 1% ao mes dado um intervalo de meses
+        /// </summary>
+        /// <param name="ValorInicial">Valor inicial para cálculo dos juros compostos</param>
+        /// <param name="Meses">Intervalo de meses para cálculo dos juros compostos</param>
+        /// <returns>Objeto com o valor final com os juros aplicados</returns>
+        /// <response code="200">Se o valor inicial e o meses fornecidos forem válidos.</response>
+        /// <response code="400">Se o valor inicial ou meses fornecidos forem inválidos.</response>
         [HttpGet]
         [Route("calculajuros")]
         public IActionResult Get([FromQuery]JurosCompostosInputViewModel vm)
