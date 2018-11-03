@@ -9,8 +9,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalcTest.Crosscutting\CalcTest.Crosscutting.csproj" />
+    <ProjectReference Include="..\CalcTest.Domain\CalcTest.Domain.csproj" />
+    <ProjectReference Include="..\CalcTest.IoC\CalcTest.IoC.csproj" />
+    <ProjectReference Include="..\CalcTest.Service\CalcTest.Service.csproj" />
   </ItemGroup>
 
 </Project>
