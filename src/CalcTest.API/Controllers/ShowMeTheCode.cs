@@ -11,6 +11,7 @@ namespace CalcTest.API.Controllers
         { }
 
         [Route("showmethecode")]
+        [HttpGet]
         public IActionResult Get()
             => Response("https://github.com/luancarloswd/softplayer/");
     }

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 using System;
 
 namespace CalcTest.API
@@ -31,6 +32,22 @@ namespace CalcTest.API
                 o.DefaultApiVersion = new ApiVersion(new DateTime(2018, 11, 3));
             });
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1",
+                    new Info
+                    {
+                        Title = "Cálculo de juros compostos",
+                        Version = "v1",
+                        Description = "Aplicação desenvolvida para atender o teste para Softplan",
+                        Contact = new Contact
+                        {
+                            Name = "Luan Carlos",
+                            Url = "https://github.com/luancarloswd"
+                        }
+                    });
+            });
+
             RegisterServices(services);
         }
 
@@ -40,7 +57,15 @@ namespace CalcTest.API
             {
                 app.UseDeveloperExceptionPage();
             }
+
             app.UseMvc();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json",
+                    "Cálculo de juros compostos v1");
+            });
         }
 
         private static void RegisterServices(IServiceCollection services)
