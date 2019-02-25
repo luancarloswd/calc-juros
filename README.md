@@ -1,6 +1,5 @@
-# API para seleção de pessoa Desenvolvedora .Net Core
+# Api para o cálculo de juros compostos
 
-API desenvolvida para atender o teste "mão na massa" para a Softplan.
 
 ## Online:
 
